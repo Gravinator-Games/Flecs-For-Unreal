@@ -1,0 +1,3 @@
+[submodule "Plugins/FlecsForUnreal/Source/ThirdParty/Flecs/flecs"]
+	path = Plugins/FlecsForUnreal/Source/ThirdParty/Flecs/flecs
+	url = https://github.com/SanderMertens/flecs.git

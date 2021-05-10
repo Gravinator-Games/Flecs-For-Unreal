@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Flecs For Unreal",
+	"Description": "",
+	"Category": "Flecs",
+	"CreatedBy": "Gravinator Games",
+	"CreatedByURL": "https://gravinatorgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FlecsForUnreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "FlecsExample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
