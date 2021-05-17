@@ -5,6 +5,11 @@
 #include "FlecsCore.h"
 #include "FlecsWorldSubSystem.generated.h"
 
+//forward declaration
+namespace flecs {
+	class world;
+}
+
 /**
  * A world subsystem providing an interface to the Flecs framework
  */
@@ -53,6 +58,7 @@ public:
 //	void DestroyEntity(EEntity Entity);
 //	
 private:
+	flecs::world* FlecsWorld = nullptr;
 //	FRegistry Registry;
 //	TMap<FString, FSystem*> NamedSystems;
 //	std::vector<FSystem*> Systems;

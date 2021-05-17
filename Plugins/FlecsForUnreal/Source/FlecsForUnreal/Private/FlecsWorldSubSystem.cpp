@@ -1,11 +1,14 @@
 ﻿// Copyright Gravinator Games. All Rights Reserved.
 
 #include "FlecsWorldSubSystem.h"
+
+#include "flecs.h"
 #include "FlecsForUnreal.h"
 
 void UFlecsWorldSubSystem::Initialize(FSubsystemCollectionBase& Collection)
 {
 	UE_LOG(LogFlecsSystem, Log, TEXT("Initialized FlecsWorldSubSystem."))
+	FlecsWorld = new flecs::world();
 }
 
 void UFlecsWorldSubSystem::Deinitialize()
@@ -14,7 +17,9 @@ void UFlecsWorldSubSystem::Deinitialize()
 	//{
 	//	delete System;
 	//}
-	
+
+	delete FlecsWorld;
+
 	UE_LOG(LogFlecsSystem, Log, TEXT("Deinitialized FlecsWorldSubSystem."))
 }
 

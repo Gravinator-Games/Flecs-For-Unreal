@@ -2,7 +2,6 @@
 
 #pragma once
 
-//#include "ThirdParty/Flecs/Public/flecs.h"
 #include "FlecsCore.generated.h"
 
 // Flecs bridge in UE4 style

@@ -24,6 +24,11 @@
 			"Name": "FlecsExample",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "FlecsLibrary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	]
 }
